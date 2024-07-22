@@ -1,9 +1,14 @@
 # RetinaNet-Object-Detection
 
+### Deep learning framework
+Tensorflow : 1.15  
+Keras : 2.2.5
+
 ## 安裝環境   
 ```
 pip install -r requirements.txt
 ```
+
 
 ## 資料準備
 在開始訓練之前，先檢查自己的dataset當中的圖片和label(xml檔)已經按照Pascal VOC格式整理，並放置在VOCdevkit資料夾下。 
