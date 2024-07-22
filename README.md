@@ -32,8 +32,8 @@ python train.py
 ```
 python get_map.py
 ```
-計算各個類別的平均精度（AP）以及最終計算出的mAP
-
+計算各個類別的平均精度（AP）以及最終計算出的mAP  
+<img src="./figure/mAP.png" width="600" alt="計算mAP"/>
 ### step4 : 預測
 ##### 注意參數 
 classes_path:要對到一個txt檔 裡面是訓練資料的所有類別  
@@ -42,7 +42,10 @@ dir_origin_path:要預測的圖片位置
 ```
 python predict.py
 ```
+input:  
+<img src="./figure/demo.jpg" width="600" alt="要預測的圖片"/>
 
-
+output:  
+<img src="./figure/output.jpg" width="600" alt="預測結果"/>
 
 
